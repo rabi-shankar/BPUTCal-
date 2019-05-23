@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.rabi.shankar.bputcal.AboutActivity">
+
+    <ImageView
+        android:id="@+id/main_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_widgets_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="logo" />
+
+    <TextView
+        android:id="@+id/app_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:fontFamily="@font/poiretone_regular"
+        android:textStyle="bold"
+        android:layout_below="@id/main_icon"
+        android:layout_marginTop="8dp"/>
+
+
+    <TextView
+        android:id="@+id/version_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/version"
+        android:textSize="14sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="normal"
+        android:layout_below="@id/app_name_text" />
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/about_app"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/version_name"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/developer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer"
+        android:textSize="18sp"
+        android:fontFamily="@font/poiretone_regular"
+        android:textStyle="bold"
+        android:layout_below="@id/app_description"
+        android:layout_marginTop="38dp"/>
+
+    <TextView
+        android:id="@+id/application_source_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="@font/poiretone_regular"
+        android:textStyle="bold"
+        android:layout_below="@id/developer_name"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBar"
+        android:layout_below="@id/application_source_code"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+
+</RelativeLayout>

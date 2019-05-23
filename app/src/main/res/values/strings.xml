@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BputCal+</string>
+    <string name="instruction">Calculate SGPA\nInsert pair of CREDIT and GRADE respectively</string>
+    <string name="about_app"><![CDATA[BputCal+ (beta) help freshman in BPUT who are not acquainted with SGPA calculations. It currently supports SGPA calculation of all branches of BTech. It is a free tool and will remain free.]]></string>
+    <string name="developer">Developed by Rabi shankar</string>
+    <string name="version">Beta version</string>
+</resources>
